@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(202, 196, 196, 0.637);
+}
+nav {
+  background: linear-gradient(229deg, rgb(65, 80, 95) 0%, rgb(36, 37, 38) 100%);
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 5rem;
+}
+nav > div > img {
+  width: 20%;
+  margin-left: 1rem;
+}
+main {
+  padding-top: 20px;
+}
+nav > div > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+nav > div > ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+nav > div > ul > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.597);
+  color: black;
+  border-radius: 7px;
+}
+nav > #right1 {
+  display: flex;
+  justify-content: end;
+}
+nav > #right1 > a {
+  margin-right: 1rem;
+}
+nav > #right1 > a > button {
+  padding: 0.5rem;
+  height: 30px;
+  border-radius: 5px;
+  background: linear-gradient(
+    343deg,
+    rgb(187, 221, 228) 0%,
+    rgb(167, 195, 221) 100%
+  );
+  color: rgb(0, 0, 0);
+
+  border: none;
+}
+nav > #right1 > a > button:active {
+  background-color: white;
+}
+.design > div {
+  background: linear-gradient(
+    343deg,
+    rgb(221, 221, 221) 0%,
+    rgb(110, 136, 161) 100%
+  );
+  border-radius: 5px;
+  padding: 30px;
+  /* height: 230px; */
+}
+.design > div > img {
+  width: 100%;
+  /* height: 300px; */
+}
+.design > div > h2,
+h3,
+h4 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding-left: 1rem;
+}
+.design > div > button {
+  width: 80%;
+  background-color: rgb(38, 24, 108);
+  color: white;
+  border: none;
+  height: 3rem;
+  border-radius: 5px;
+  /* position: relative; */
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.design {
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#popup {
+  width: 20%;
+  background: linear-gradient(
+    112deg,
+    rgb(91, 111, 131) 10%,
+    rgb(30, 33, 35) 90%
+  );
+  position: fixed;
+  right: -100%;
+  top: 0%;
+  height: 100vh;
+  padding: 1rem;
+  transition: 1s;
+}
+
+#static > h3 {
+  text-align: right;
+  font-size: 1rem;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+#static > h2 {
+  text-align: center;
+}
+
+/* nav > #left1 {
+  width: 20%;
+  background-color: black;
+}
+nav > #main {
+  width: 40%;
+  background-color: black;
+}
+nav > #right1 {
+  width: 20%;
+  background-color: black;
+} */

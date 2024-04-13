@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="./ecommerce.css">
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+</head>
+<body>
+    <!-- nav>(div>img)+(div>ul>li*4>a)+(div>button*2) -->
+    <nav>
+        <div id="left1"><img src="./image/download.jpeg" alt=""></div>
+        <div id="main">
+            <ul>
+                <li><a href="#maleSection">Male</a></li>
+                <li><a href="#femaleSection">Female</a></li>
+                <li><a href="#kidsSection">Kids</a></li>
+                <li><a href="#electronicsSection">Electronics</a></li>
+            </ul>
+        </div>
+        <div id="right1">
+            <a href="./login.html"><button>SignIn</button></a>
+            <a href="./signup.html"><button>Sign Up</button></a>
+        </div>
+    </nav>
+
+    <section id="popup">
+        <div id="static">
+            <h3 id="x">X</h3>
+            <h2>Cart-Items</h2>
+            <hr />
+        </div>
+        <div id="dynamic"></div>
+    </section>
+
+    <main>
+        <section id="maleSection">
+            <div class="design" id="maleCont"></div>
+        </section>
+
+        <section id="femaleSection">
+            <div class="design" id="femaleCont"></div>
+        </section>
+
+        <section id="kidsSection">
+            <div class="design" id="kidsCont"></div>
+        </section>
+
+        <section id="electronicsSection">
+            <div class="design" id="electronicsCont"></div>
+        </section>
+
+    </main>
+    <script src="./ecommerce.js"></script>
+</body>
+</html>
